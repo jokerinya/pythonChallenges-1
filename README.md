@@ -7,3 +7,5 @@
   > About conditions and booleans
 - Some Loops
   > While loops questions
+- Amstrong Number Finding
+  > Loop and Conditions
