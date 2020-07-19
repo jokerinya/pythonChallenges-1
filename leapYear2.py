@@ -23,11 +23,11 @@ if(year.isdigit()):
     year = int(year)
 
     # means year can be divided by 400, 4, 100; if it is, returns True
-    divided_to_400 = not bool(year % 400)
-    divided_to_4 = not bool(year % 4)
-    divided_to_100 = not bool(year % 100)
+    divided_by_400 = not bool(year % 400)
+    divided_by_4 = not bool(year % 4)
+    divided_by_100 = not bool(year % 100)
 
-    if divided_to_400 or (divided_to_4 and not divided_to_100):
+    if divided_by_400 or (divided_by_4 and not divided_by_100):
         print(f"{year} is a leap year.")
     else:
         print(f"{year} is not a leap year.")
